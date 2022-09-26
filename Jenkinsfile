@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('calculate'){
             steps{
-                sh 'python3 calc_pi.py'
+                sh 'python calc_pi.py'
             }
         }
     }
